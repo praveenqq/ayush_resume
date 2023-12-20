@@ -1,0 +1,339 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Ayush}{Agrahari}{ % Your name
+\urlstyle{same}\url{https://my-portfolio-ayush.vercel.app/} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:agrahariayush0511@gmail.com}{agrahariayush0511@gmail.com} | +91 7800947067 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Pt. Mahaveer College}
+
+\descript{BCA in Computer Science}
+
+\location{Expected May 2026 | Vijaypur, UP }
+% Deans List \{All Semesters\} \\
+\sectionspace % Some whitespace after the section
+
+
+
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+github.com/ \href{https://github.com/ayushagrahari0511}{\bf ayushagrahari0511} \\
+fiverr.com/ \href{https://www.fiverr.com/ayush__agrahari?public_mode=true}{\bf ayush\_\_agrahari} \\
+linkedIn.com/in/ \href{https://www.linkedin.com/in/ayush-agrahari-521646229/}{\bf ayush} \\
+portfolio/  \href{https://my-portfolio-ayush.vercel.app/}{\bf portfolio} \\
+
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Coursework}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Undergraduate}
+
+Data Structures \\
+Design and Analysis of Algorithm \\
+Cloud Computing \\ 
+Web Technology \\ 
+DBMS \\
+Software Engineering \\
+% Calculus I-III \textbullet{} Physics I \\
+% \location{}
+% Probability \textbullet{} Calculus Based Statistics \textbullet{} 
+% Algorithms 
+% \textbullet{}   Software Engineering 
+% \textbullet{} Artificial Intelligence \textbullet{} C \textbullet{} Search Engines
+
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+\sectionspace % Some whitespace after the section
+\subsection{Technical}
+\location{Language:}
+JavaScript \textbullet{} Typescript\textbullet{} Python \textbullet{} C++ \textbullet{} C  \textbullet{} Python \\
+\location{Library:}
+React.js \textbullet{} Node.js \textbullet{} MaterialUI \textbullet{}  Styled Components  \\ 
+\location{Framework:}
+Next.js \textbullet{} Express.js \textbullet{} React Native \textbullet{} Tailwind CSS \textbullet{} Bootstrap\\
+\location{Database:}
+MongoDB \textbullet{} PostgreSQL \textbullet{} MySQL \textbullet{} DynamoDB\\
+\location{Dependencies:}
+Mongoose \textbullet{} Sequelize \textbullet{} Elastic Cloud Search \textbullet{} JWT \textbullet{} Web Socket \textbullet{} Razorpay \\
+\location{OS Experience}
+Ubuntu 14.04 \textbullet{} CentOS \textbullet{} Windows \textbullet{} Kali Linux \textbullet{} FedoraOS
+
+\location{Cloud Services}
+EC2 \textbullet{} CICD \textbullet{} S3 \textbullet{} SNS \textbullet{} SES \textbullet{} Lightsail \textbullet{} Amplify 
+
+\location{Tools}
+Docker \textbullet{} PM2 \textbullet{} Nginx \textbullet{} Git \textbullet{} Vim  \textbullet{} Winston
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{Third Eye Innovations Private Limited}
+\descript{| Fullstack Developer}
+
+\location{Oct 2023 –  Present | Remote, UP}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item In my current role, I've successfully completed three impactful IT projects, contributing to the advancement and efficiency of clients routine operations.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section.
+
+%------------------------------------------------
+
+
+% \runsubsection{Liberty Mutual}
+% \descript{| Software Developer Intern - eCommerce}
+
+% \location{May 2015 – August 2015 | Portsmouth, NH}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightitemize}
+% \item Proposed then implemented an open-source log analytics stack for LM.com.
+% \end{tightitemize}
+
+% \sectionspace % Some whitespace after the section.
+
+% %------------------------------------------------
+
+% \runsubsection{ESPN}
+% \descript{| Software Developer Co-op - Consumer Apps}
+
+% \location{January 2015 – March 2015 | Bristol, CT}
+% \begin{tightitemize}
+% \item Developed server-side Groovy program that processes all real time JSON data for the ESPN app.
+
+% \end{tightitemize}
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Printila}
+\descript{| Backend Developer}
+
+\location{Nov 2022 – Dec 2023 | Remote, UP}
+\begin{tightitemize}
+\item As a Backend Developer, I successfully led the development and deployment of 400 APIs on an EC2 instance, ensuring optimal performance and scalability for a comprehensive jewelry ecommerce platform.
+\item Led design and implementation of a best-effort eventually consistentreplication
+protocol for NFS objects between object stores for configured S3 buckets.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Freelancer Web Developer.}
+\descript{| Fullstack Development}
+
+\location{Mar 2022 – Dec 2022 | Remote, UP}
+\begin{tightitemize}
+\item  I optimized a jewelry ecommerce site with a visually engaging Next.js customer interface, streamlined vendor operations in Node.js.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research & Projects
+%------------------------------------------------
+
+\section{Awards - Achievements} 
+
+\begin{tabular}{rll}
+2020 & & Winner of Vexla India GK Competition \\
+2023	 & & Unlocked Pull Shark badge on Github \\
+2023     & & Completed level 1 on Fiverr \\
+% 2014     &  & NCAA Division 1 Cross Country Minuteman. \\
+% 2013-15     & &Cheryl Spencer Scholarship 'using education to improve the world' \\
+% 2012	 & 2\textsuperscript{nd} & Massachusetts State Robotics Championship - FTC\\
+
+\end{tabular}
+
+\sectionspace % Some whitespace after the section
+
+
+
+
+\section{Projects}
+
+\runsubsection{QR Social }
+\descript{| React Native }
+
+\location{Nov 2023 – Present}
+Developed a cutting-edge social media platform where restaurants receive reviews through QR codes, instantly published as posts on the app, enhancing the dining experience
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Nagaliker Diagnostic}
+\descript{| MERN Stack}
+
+\location{Oct 2023 – December 2023 }
+Developed a comprehensive Diagnostic and Medicine ERP system, showcasing proficiency in system architecture, database management, and user interface design. 
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Absolute Gold}
+\descript{| Mern Stack}
+
+\location{Sep 2022 – November 2022}
+
+Designed and developed a third-party jewelry listing ecommerce platform, enhancing market reach and driving sales through a user-friendly interface.
+
+\sectionspace % Some whitespace after the section
+
+
+\runsubsection{Universal Air Product}
+\descript{| Next.js}
+
+\location{Oct 2023 – November 2023}
+
+Developed a universal air products listing website, streamlining the presentation of air quality filters, showcasing technical specifications and enhancing user experience
+
+\sectionspace % Some whitespace after the section
+
+
+\runsubsection{Salvinix}
+\descript{| Next.js}
+
+\location{May 2023 – June 2023}
+
+I spearheaded the development of an innovative IT services listing website.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+% \section{Recognitions} 
+
+% \begin{tabular}{rll}
+% 2015 & & Honors College Undergraduate Research Fellow \\
+% 2015	 & top 7.5\% & Phi Kappa Phi Honors Society\\
+% 2014     & 1 of 39 & Athletic Director's 4.0 Club \\
+% 2014     &  & NCAA Division 1 Cross Country Minuteman. \\
+% 2013-15     & &Cheryl Spencer Scholarship 'using education to improve the world' \\
+% 2012	 & 2\textsuperscript{nd} & Massachusetts State Robotics Championship - FTC\\
+
+% \end{tabular}
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Societies
+%------------------------------------------------
+
+% \section{Interests} 
+
+% \begin{tabular}{rll}
+% Chess & 1450 Elo & Learned January 2015 and aspire to be a titled player. \\
+%  & twitch & Accepted into 'Chess.com Streamers Challenge' (September 2015)\\
+% Running & college & NCAA Division 1 Cross Country Minuteman (2014) \\
+%  & individual & Hartford ING Marathon Division Winner (2013).
+% \end{tabular}
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
